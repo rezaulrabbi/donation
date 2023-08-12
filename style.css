@@ -1,0 +1,135 @@
+body{
+    margin:0;
+    height:100%;
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.donate_now{
+    background-image: url(images/donation13.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    border:5px solid white;
+    background-size:cover;
+    height: 630px;
+}
+.text_line{
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 65px;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 35px;
+}
+.link-button{
+    text-decoration: none;
+    background-color:tomato;
+    color: white;
+    font-weight: 800;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.container{
+    position: relative;
+    width:1000px;
+    height: 150px;
+    margin: 5px auto;
+}
+.container .box{
+    position: relative;
+    width: calc(200px - 30px);
+    height: calc(150px - 30px);
+    background:#f8f4ff;
+    color: gray;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.amount_box{
+    text-align: center;
+}
+#diffrent_clr{
+    background-color:#F6E3E2;
+    color:tomato;
+    border: 3px solid tomato
+}
+.donation_plan_box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(350px - 30px);
+    color: gray;
+    background: #B4CFEC;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}  
+.container_donation{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.icon_food{
+    display:flex;
+    margin-left: 10%;
+    margin-top: 18%;
+}
+.food_for_family{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin-left: 10%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 90%;
+}
+.depend_donation{
+    display: flex;
+    margin-top: 60px;
+}
+.my_updates{
+    text-align: center;
+}
+.email_box{
+    position: relative;
+    width: calc(750px - 30px);
+    height: calc(250px - 30px);
+    color: gray;
+    background:#ad1d16;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px; 
+    margin-left: 25%;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form-box{
+    padding: 10px;
+    border-radius: 5px;  
+}
+footer{
+    text-align: center;
+    align-items: center;
+    background: black;
+    color: #f8f4ff;
+}
